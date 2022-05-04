@@ -38,12 +38,18 @@
 
               <div class="form-group">
                 <label for="nome">Nome Completo</label>
-                <input type="text" class="form-control" id="nome" name="nome">
+                <input type="text" class="form-control" id="nome" name="nome" autofocus>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com">
               </div>
 
               <div class="form-group">
                 <label for="cpf">CPF</label>
-                <input type="text" class="form-control" id="cpf" name="cpf">
+                <input type="text" class="form-control" id="cpf" name="cpf" 
+                placeholder="000.000.000-00">
               </div>
 
               <div class="checkbox">
@@ -57,9 +63,29 @@
             <fieldset>
               <legend>Cartão de Crédido</legend>
 
+              <div class="form-group">
+                <label for="numero-cartao">Número - CVV</label>
+                <input type="text" class="form-control" id="numero-cartao"          name="numero-cartao">
+              </div>
+
+              <div class="form-group">
+                <label for="bandeira-cartao">Bandeira</label>
+                <select name="bandeira-cartao" id="bandeira-cartao" class="form-control">
+                  <option value="master">MasterCard</option>
+                  <option value="visa">VISA</option>
+                  <option value="amex">American Express</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="validade-cartao">Validade</label>
+                <input type="month" class="form-control" id="valiade-cartao" name="validade-cartao">
+
+              </div>
             </fieldset>
 
-            <button type="submit" class="btn tbnt-primary">
+            <button type="submit" class="btn-lg pull-right tbnt-primary">
+              <span class="glyphicon glyphicon-thumbs-up"></span>
               Confirmar Pedido
             </button>
           </form>
