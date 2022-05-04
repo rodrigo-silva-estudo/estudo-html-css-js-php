@@ -16,7 +16,7 @@
           Preencha seus dados para efetivar a compra.</p>
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h2>Sua compra</h2>
+              <h2>Sua Compra</h2>
               <dl>
                 <dt>Cor</dt>
                 <dd><?= $_POST['cor'] ?></dd>
