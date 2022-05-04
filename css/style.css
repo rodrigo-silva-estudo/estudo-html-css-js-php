@@ -256,3 +256,7 @@ footer .container {
 .painel li {
   transition: 0.7s;
 }
+
+.form-control:invalid {
+  border: 1px solid #c00
+}
