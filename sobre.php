@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px">
     <link rel="stylesheet" href="css/sobre.css">
     <title>Sobre a Mirror Fashion</title>

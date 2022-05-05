@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-flatly.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="js/javascript.js">
     <title>Checkout</title>
   </head>
     <body>
-      <nav class="navbar navbar-default navbar-static-top">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-header">
-          <a class="navbar-brand" href="index.php">Mirror Fashion</a>
+          <img src="img/logo.png" alt="Mirror Fashion" srcset="">
           <button class="navbar-toggle" type="button"
             data-targer=".navbar-collapse" data-toggle="collapse">
-            menu          
+            <span class="glyphicon glyphicon-align-justify"></span>         
           </button>
         </div>
         <ul class="nav navbar-nav collapse navbar-collapse">
@@ -118,6 +118,8 @@
           </form>
         </div> <!-- fim .container -->
       </div>
+      <script src="js/testaConversao.js"></script>
+      <script src="js/converteMoeda.js"></script>
       <script src="js/jquery.js"></script>
       <script src="js/bootstrap.js"></script>
     </body>
