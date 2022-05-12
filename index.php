@@ -55,7 +55,7 @@
       <section class="painel novidades">
         <h2>Novidades</h2>
         <ol>
-
+          <button type="button">Mostrar mais</button>
           <!-- primeiro produto -->
           <li>
             <a href="produto.html">
@@ -118,7 +118,7 @@
       <section class="painel mais-vendidos">
         <h2>Mais Vendidos</h2>
         <ol>
-
+          <button type="button">Mostrar mais</button>
           <li>
             <a href="produto.html">
               <figure>
@@ -178,6 +178,8 @@
       
     </div>
     <?php include("rodape.php"); ?>
+    <script src="js/jquery.js"></script>
+    <!-- só podemos utilizar o jQuery após sua importação -->
     <script src="js/converteMoeda.js"></script>
     <script src="js/testaConversao.js"></script>
   </body>

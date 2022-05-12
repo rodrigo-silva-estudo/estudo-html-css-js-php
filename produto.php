@@ -85,6 +85,13 @@
       </div>
 
       <?php include("rodape.php"); ?>
+
+      <script src="js/testaConversao.js"></script>
+      <script src="js/converteMoeda.js"></script>
+
+      <script src="js/total.js"></script>
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.js"></script>
       
     </body>
 </html>

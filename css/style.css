@@ -268,3 +268,15 @@ footer .container {
 body {
   padding-top: 70px;
 }
+
+.painel button {
+  display: none;
+}
+
+.painel-compacto li:nth-child(n+7) {
+  display:none;
+}
+
+.painel-compacto button {
+  display: block;
+}

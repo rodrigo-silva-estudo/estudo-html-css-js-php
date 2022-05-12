@@ -39,21 +39,28 @@
               <p>Obrigado por comprar na Mirror Fashion!
               Preencha seus dados para efetivar a compra.</p>
               <div class="panel panel-default">
-                <div class="panel-heading">
+                <div class="panel-body">
+                  <img src="img/produtos/foto<?= $_POST["id"] ?>-<?= $_Post["cor"] ?>.png" class="img-thumbnail img-responsive">
                   <h2>Sua Compra</h2>
                   <dl>
-                    <dt>Cor</dt>
-                    <dd><?= $_POST['cor'] ?></dd>
-
-                    <dt>Tamanho</dt>
-                    <dd><?= $_POST['tamanho'] ?></dd>
-                  
                     <dt>Produto</dt>
-                    <dd><?= $_POST['nome'] ?></dd>
-
+                    <dd><?= $_POST["nome"] ?></dd>
                     <dt>Preço</dt>
-                    <dd><?= $_POST['preco'] ?></dd>
+                    <dd><?= $_POST["preco"] ?></dd>
+                    <dt>Cor</dt>
+                    <dd><?= $_POST["cor"] ?></dd>
+                    <dt>Tamanho</dt>
+                    <dd><?= $_POST["tamanho"] ?></dd>
                   </dl>
+                  <!-- Aqui virá o código -->
+                  <div class="form-group">
+                    <label for="qt">Quantidade</label>
+                    <input id="qt" class="form-control" type="number" min="0" max="99" value="1">
+                  </div>
+                  <div class="form-group">
+                    <label for="total">Total</label>
+                    <output for="qt valor" id="total" class="form-control"><?= $_POST["preco"] ?></output>
+                  </div>
                 </div>
               </div>
             </div>
@@ -118,9 +125,13 @@
           </form>
         </div> <!-- fim .container -->
       </div>
+      <script src="scripts/jquery.js"></script>
+      <script src="js/jquery.js"></script>
+    <!-- só podemos utilizar o jQuery após sua importação -->
       <script src="js/testaConversao.js"></script>
       <script src="js/converteMoeda.js"></script>
-      <script src="js/jquery.js"></script>
+
+      <script src="js/total.js"></script>
       <script src="js/bootstrap.js"></script>
     </body>
 </html>
